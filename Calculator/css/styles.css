@@ -1,0 +1,40 @@
+.container {
+  width: 250px;
+  margin: auto;
+  text-align: center;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-color: rgb(0, 0, 0);
+  padding: 10px 5px;
+}
+
+
+
+.display {
+  background-color: rgba(0, 0, 0, 0.068);
+  height: 40px;
+  line-height: 40px;
+  border-radius: 10px 10px 0px 0px;
+  color: black;
+  padding-right: 30px;
+      text-align: right;
+}
+
+
+
+p {
+  background: rgb(68, 68, 68);
+  padding: 16px 0px;
+  border-radius: 100%;
+  margin: 5px 5px;
+  color: white;
+  cursor: pointer;
+}
+
+p.farve {
+  background-color: rgb(124, 172, 30);
+}
+
